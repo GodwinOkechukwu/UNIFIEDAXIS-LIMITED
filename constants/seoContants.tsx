@@ -21,7 +21,7 @@ export const SEODATA: Record<string, SEOConfig> = {
   default: {
     title: `${SITE_NAME} | Empowering Businesses Through Technology`,
     description:
-      "Insightcore Technology Limited provides cutting-edge software development, AI integration, and digital transformation strategies to scale modern enterprises.",
+      "unifiedaxis Technology Limited provides cutting-edge software development, AI integration, and digital transformation strategies to scale modern enterprises.",
     keywords: [
       "unifiedaxis Digital",
       "Software Development Nigeria",
