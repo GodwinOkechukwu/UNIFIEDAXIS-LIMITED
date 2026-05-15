@@ -68,9 +68,10 @@ export const statusStyles: { [key: string]: string } = {
 };
 
 export const headerNavLinks: linksProps[] = [
-  { id: 1, href: "/", text: "Home" },
-  { id: 2, href: "/category", text: "Categories" },
-  { id: 3, href: "/contact-us", text: "Contact" },
+	{ id: 1, href: "/", text: "Home" },
+	{ id: 2, href: "/category", text: "Categories" },
+	{ id: 3, href: "/contact-us", text: "Contact" },
+	{ id: 4, href: "/about", text: "About" },
 ];
 
 export interface SectionProps {
@@ -715,7 +716,7 @@ export interface UserInfo {
 	phone?: string;
 }
 
-interface CartItem {}
+interface CartItem { }
 export interface createOrderPayLoad {
 	token: string;
 	cart: CartItem[];
@@ -1162,21 +1163,21 @@ export const currencyOptions: {
 	country: string;
 	countryCode: string; // Added country code
 }[] = [
-	{
-		code: "NGN",
-		label: "Nigerian Naira (₦)",
-		symbol: "₦",
-		country: "Nigeria",
-		countryCode: "NG", // Added country code for Nigeria
-	},
-	{
-		code: "USD",
-		label: "US Dollar ($)",
-		symbol: "$",
-		country: "United States",
-		countryCode: "US", // Added country code for United States
-	},
-	// { code: "GBP", label: "British Pound (£)", symbol: "£", country: "United Kingdom", countryCode: "GB" },
-	// { code: "EUR", label: "Euro (€)", symbol: "€", country: "Eurozone", countryCode: "EU" },
-	// { code: "JPY", label: "Japanese Yen (¥)", symbol: "¥", country: "Japan", countryCode: "JP" },
-];
+		{
+			code: "NGN",
+			label: "Nigerian Naira (₦)",
+			symbol: "₦",
+			country: "Nigeria",
+			countryCode: "NG", // Added country code for Nigeria
+		},
+		{
+			code: "USD",
+			label: "US Dollar ($)",
+			symbol: "$",
+			country: "United States",
+			countryCode: "US", // Added country code for United States
+		},
+		// { code: "GBP", label: "British Pound (£)", symbol: "£", country: "United Kingdom", countryCode: "GB" },
+		// { code: "EUR", label: "Euro (€)", symbol: "€", country: "Eurozone", countryCode: "EU" },
+		// { code: "JPY", label: "Japanese Yen (¥)", symbol: "¥", country: "Japan", countryCode: "JP" },
+	];
