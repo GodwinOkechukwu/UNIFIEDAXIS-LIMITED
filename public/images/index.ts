@@ -23,6 +23,8 @@ import heroImage3 from "./heroImage3.png";
 import heroImage4 from "./heroImage4.png";
 import heroBg from "./cpuu.png";
 import frbg from "./frbg.png";
+import about1 from "./aboutlap.avif";
+import about2 from "./abouts.avif";
 import speaker from "./computerset.jpg"
 import machineImage from "./machine-image.png";
 import speedImage from "./speedImage.png";
@@ -62,7 +64,9 @@ export {
 	categoryImg2,
 	speaker,
 	journalbg,
-	frbg
+	frbg,
+	about1,
+	about2
 };
 
 export const fashionSnip = {
